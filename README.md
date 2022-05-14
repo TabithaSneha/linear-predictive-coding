@@ -9,11 +9,11 @@ In this project, Linear Predictive Coding (LPC) has been implemented and studied
 Linear predictive coding (LPC) is a widely used technique in audio signal processing, especially in speech signal processing. It has been particular used to estimate the
 basic parameters of speech as pitch (through frequency) and intensity (through loudness).
 
-![Pic](https://drive.google.com/file/d/12FmtuqS8r1_7iHf2xRjk3NbnOgQxg_ji/view?usp=sharing)
+![Pic](https://user-images.githubusercontent.com/87858655/168421124-22a20a35-60b9-4661-90c6-44a9247e8913.png)
 
 We can formulate the relation between the input and output as,
 
-![Pic](https://drive.google.com/file/d/1nDluxBMixnwOUUAZ_sbm3_9MZNcE2OyH/view?usp=sharing)
+![Pic](https://user-images.githubusercontent.com/87858655/168421168-2f7c65a7-2b55-4221-8ceb-c8f17cba74ba.png)
 
 To find out $a_{k}$, the above equation is converted to matrix form. Speech samples can be approximated as a linear combination of the past samples by minimizing the error. The solution of choice for LPC is *Least Squares*, for which those values of $a_{k}$ is chosen that minimizes ||$e(n)^{2}$||, the power of the error of estimation or residual **e**.
 
@@ -53,19 +53,19 @@ A Graphical User Interface (GUI) in MATLAB was designed to study the working of 
 
 ### Original Speech Signal:
 
-![Pic](https://drive.google.com/file/d/1feEGX1gpbP8qe-Z9c8Fu-piNvgUwB6qG/view?usp=sharing)
+![Pic](https://user-images.githubusercontent.com/87858655/168421184-2d94c1f6-90f6-48fc-bfed-2633c504c0ba.png)
 
 ### Plot of Pitch:
 
-![Pic](https://drive.google.com/file/d/1ljr-GNGANAUeoovcJowffgQtbh90qxBN/view?usp=sharing)
+![Pic](https://user-images.githubusercontent.com/87858655/168421199-f02d091c-da40-44be-bec4-d739c76d4eba.png)
 
 ### Reconstruction of Speech Signal Without Pitch
 
-![Pic](https://drive.google.com/file/d/1kLI5cEe5SGn20FQEYCKHFaER9vkA-jG2/view?usp=sharing)
+![Pic](https://user-images.githubusercontent.com/87858655/168421227-1b2a71ae-3252-4b95-b1cd-0db25b704570.png)
 
 ### Reconstruction of Speech Signal With Pitch
 
-![Pic](https://drive.google.com/file/d/19Egc5thIxUVnCxihtUp1RYidgP-w8H1v/view?usp=sharing)
+![Pic](https://user-images.githubusercontent.com/87858655/168421246-c11e4202-3980-4414-a316-690f636274cb.png)
 
 ## Analysis of Reconstructed Speech:-
 
