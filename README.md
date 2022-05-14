@@ -9,11 +9,11 @@ In this project, Linear Predictive Coding (LPC) has been implemented and studied
 Linear predictive coding (LPC) is a widely used technique in audio signal processing, especially in speech signal processing. It has been particular used to estimate the
 basic parameters of speech as pitch (through frequency) and intensity (through loudness).
 
-![Pic](C:\Users\celin\OneDrive\Pictures\Screenshots\Screenshot (188).png)
+![Pic](https://drive.google.com/file/d/12FmtuqS8r1_7iHf2xRjk3NbnOgQxg_ji/view?usp=sharing)
 
 We can formulate the relation between the input and output as,
 
-![Pic](C:\Users\celin\OneDrive\Pictures\Screenshots\Screenshot (191).png)
+![Pic](https://drive.google.com/file/d/1nDluxBMixnwOUUAZ_sbm3_9MZNcE2OyH/view?usp=sharing)
 
 To find out $a_{k}$, the above equation is converted to matrix form. Speech samples can be approximated as a linear combination of the past samples by minimizing the error. The solution of choice for LPC is *Least Squares*, for which those values of $a_{k}$ is chosen that minimizes ||$e(n)^{2}$||, the power of the error of estimation or residual **e**.
 
@@ -53,19 +53,19 @@ A Graphical User Interface (GUI) in MATLAB was designed to study the working of 
 
 ### Original Speech Signal:
 
-![Pic](C:\Users\celin\OneDrive\Pictures\Screenshots\Screenshot (204).png)
+![Pic](https://drive.google.com/file/d/1feEGX1gpbP8qe-Z9c8Fu-piNvgUwB6qG/view?usp=sharing)
 
 ### Plot of Pitch:
 
-![Pic](C:\Users\celin\OneDrive\Pictures\Screenshots\Screenshot (205).png)
+![Pic](https://drive.google.com/file/d/1ljr-GNGANAUeoovcJowffgQtbh90qxBN/view?usp=sharing)
 
 ### Reconstruction of Speech Signal Without Pitch
 
-![Pic](C:\Users\celin\OneDrive\Pictures\Screenshots\Screenshot (206).png)
+![Pic](https://drive.google.com/file/d/1kLI5cEe5SGn20FQEYCKHFaER9vkA-jG2/view?usp=sharing)
 
 ### Reconstruction of Speech Signal With Pitch
 
-![Pic](C:\Users\celin\OneDrive\Pictures\Screenshots\Screenshot (207).png)
+![Pic](https://drive.google.com/file/d/19Egc5thIxUVnCxihtUp1RYidgP-w8H1v/view?usp=sharing)
 
 ## Analysis of Reconstructed Speech:-
 
