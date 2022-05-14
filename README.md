@@ -13,7 +13,7 @@ basic parameters of speech as pitch (through frequency) and intensity (through l
 
 We can formulate the relation between the input and output as,
 
-<img src="https://user-images.githubusercontent.com/87858655/168421168-2f7c65a7-2b55-4221-8ceb-c8f17cba74ba.png" height="150" width="550" >
+<img src="https://user-images.githubusercontent.com/87858655/168421168-2f7c65a7-2b55-4221-8ceb-c8f17cba74ba.png" height="200" width="550" >
 
 To find out $a_{k}$, the above equation is converted to matrix form. Speech samples can be approximated as a linear combination of the past samples by minimizing the error. The solution of choice for LPC is *Least Squares*, for which those values of $a_{k}$ is chosen that minimizes ||$e(n)^{2}$||, the power of the error of estimation or residual **e**.
 
