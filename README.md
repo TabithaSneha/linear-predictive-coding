@@ -15,11 +15,11 @@ We can formulate the relation between the input and output as,
 
 <img src="https://user-images.githubusercontent.com/87858655/168421168-2f7c65a7-2b55-4221-8ceb-c8f17cba74ba.png" height="200" width="500" >
 
-To find out <img src="https://latex.codecogs.com/svg.image?a_{k}"> , the above equation is converted to matrix form. Speech samples can be approximated as a linear combination of the past samples by minimizing the error. The solution of choice for LPC is *Least Squares*, for which those values of <img src="https://latex.codecogs.com/svg.image?a_{k}"> is chosen that minimizes <img src="https://latex.codecogs.com/svg.image?\left\|&space;e(n)^{2}\right\|"> , the power of the error of estimation or residual **e**.
+To find out  <img src="https://latex.codecogs.com/svg.image?a_{k}">  , the above equation is converted to matrix form. Speech samples can be approximated as a linear combination of the past samples by minimizing the error. The solution of choice for LPC is *Least Squares*, for which those values of  <img src="https://latex.codecogs.com/svg.image?a_{k}">  are chosen that minimizes <img src="https://latex.codecogs.com/svg.image?\left\|&space;e(n)^{2}\right\|"> , the power of the error of estimation or residual **e**.
 
-The usual approach in audio processing for encoding the audio signal after it is segmented is to use a technique called *Overlap-add (OLA)*. For OLA, we window the signal with a *window function* $w(n)$ that has a constant OLA property.
+The usual approach in audio processing for encoding the audio signal after it is segmented is to use a technique called *Overlap-add (OLA)*. For OLA, we window the signal with a *window function*  <img src="https://latex.codecogs.com/svg.image?w(n)">  that has a constant OLA property.
 
-The signal is decoded by running the filter coefficients $a_{k}$ through the LPC model and using variance to control the source, and then the decoded windowed signals is overlap-added to obtain the full signal.
+The signal is decoded by running the filter coefficients  <img src="https://latex.codecogs.com/svg.image?a_{k}">  through the LPC model and using variance to control the source, and then the decoded windowed signals is overlap-added to obtain the full signal.
 
 ## Methodology:-
 
@@ -53,19 +53,19 @@ A Graphical User Interface (GUI) in MATLAB was designed to study the working of 
 
 ### Original Speech Signal:
 
-<img src="https://user-images.githubusercontent.com/87858655/168421184-2d94c1f6-90f6-48fc-bfed-2633c504c0ba.png" height="450" width="850">
+<img src="https://user-images.githubusercontent.com/87858655/168421184-2d94c1f6-90f6-48fc-bfed-2633c504c0ba.png" height="400" width="850">
 
 ### Plot of Pitch:
 
-<img src="https://user-images.githubusercontent.com/87858655/168421199-f02d091c-da40-44be-bec4-d739c76d4eba.png" height="450" width="850">
+<img src="https://user-images.githubusercontent.com/87858655/168421199-f02d091c-da40-44be-bec4-d739c76d4eba.png" height="400" width="850">
 
 ### Reconstruction of Speech Signal Without Pitch
 
-<img src="https://user-images.githubusercontent.com/87858655/168421227-1b2a71ae-3252-4b95-b1cd-0db25b704570.png">
+<img src="https://user-images.githubusercontent.com/87858655/168421227-1b2a71ae-3252-4b95-b1cd-0db25b704570.png" height="400" width="850">
 
 ### Reconstruction of Speech Signal With Pitch
 
-<img src="https://user-images.githubusercontent.com/87858655/168421246-c11e4202-3980-4414-a316-690f636274cb.png">
+<img src="https://user-images.githubusercontent.com/87858655/168421246-c11e4202-3980-4414-a316-690f636274cb.png" height="400" width="850">
 
 ## Analysis of Reconstructed Speech:-
 
