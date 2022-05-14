@@ -9,7 +9,7 @@ In this project, Linear Predictive Coding (LPC) has been implemented and studied
 Linear predictive coding (LPC) is a widely used technique in audio signal processing, especially in speech signal processing. It has been particular used to estimate the
 basic parameters of speech as pitch (through frequency) and intensity (through loudness).
 
-<img src="https://user-images.githubusercontent.com/87858655/168421124-22a20a35-60b9-4661-90c6-44a9247e8913.png" height="450" width="800" >
+<img src="https://user-images.githubusercontent.com/87858655/168421124-22a20a35-60b9-4661-90c6-44a9247e8913.png" height="300" width="750" >
 
 We can formulate the relation between the input and output as,
 
