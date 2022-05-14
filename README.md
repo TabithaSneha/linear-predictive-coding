@@ -13,9 +13,9 @@ basic parameters of speech as pitch (through frequency) and intensity (through l
 
 We can formulate the relation between the input and output as,
 
-<img src="https://user-images.githubusercontent.com/87858655/168421168-2f7c65a7-2b55-4221-8ceb-c8f17cba74ba.png" height="200" width="500" >
+<img src="https://user-images.githubusercontent.com/87858655/168421168-2f7c65a7-2b55-4221-8ceb-c8f17cba74ba.png" height="100" width="400" >
 
-To find out $a_{k}$, the above equation is converted to matrix form. Speech samples can be approximated as a linear combination of the past samples by minimizing the error. The solution of choice for LPC is *Least Squares*, for which those values of $a_{k}$ is chosen that minimizes ||$e(n)^{2}$||, the power of the error of estimation or residual **e**.
+To find out <img src="https://latex.codecogs.com/svg.image?a_{k}">, the above equation is converted to matrix form. Speech samples can be approximated as a linear combination of the past samples by minimizing the error. The solution of choice for LPC is *Least Squares*, for which those values of $a_{k}$ is chosen that minimizes ||$e(n)^{2}$||, the power of the error of estimation or residual **e**.
 
 The usual approach in audio processing for encoding the audio signal after it is segmented is to use a technique called *Overlap-add (OLA)*. For OLA, we window the signal with a *window function* $w(n)$ that has a constant OLA property.
 
