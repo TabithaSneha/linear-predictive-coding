@@ -47,7 +47,7 @@ A Graphical User Interface (GUI) in MATLAB was designed to study the working of 
 
 * This speech synthesizer reconstructs the approximated speech signal. The input provided to the encoder is the comparison between the sampled signal and the approximated signal with the parameters. 
 * This encoder forms the digital signal known as LPC output.
-* The LPC output is provided to the Low Pass Filter, which reconstructs the audio signal $x(t)$ by performing the interpolation of samples in the input, with and without using the information of pitch.
+* The LPC output is provided to the Low Pass Filter, which reconstructs the audio signal by performing the interpolation of samples in the input, with and without using the information of pitch.
 
 ## Results:-
 
